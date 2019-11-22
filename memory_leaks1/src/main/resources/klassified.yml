@@ -10,4 +10,7 @@ database:
 server:
   applicationConnectors:
     - type: http
-      port: 9000
+      port: 8999
+  adminConnectors:
+    - type: http
+      port: 8998

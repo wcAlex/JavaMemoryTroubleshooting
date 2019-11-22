@@ -38,6 +38,21 @@ public class PostingCache
         {
             return Long.hashCode(id);
         }
+
+        // missing equal function makes cache key match always return false.
+//        public boolean equals(final Object o) {
+//            if (this == o) {
+//                return true;
+//            }
+//
+//            if (o == null || getClass() != o.getClass()) {
+//                return false;
+//            }
+//
+//            final PostingId postingId = (PostingId) o;
+//
+//            return id == postingId.id;
+//        }
     }
 
 }
