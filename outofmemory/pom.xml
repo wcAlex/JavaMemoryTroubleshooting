@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jetty.version>9.2.13.v20150730</jetty.version>
+        <jetty.version>10.0.10</jetty.version>
         <java.xms>5m</java.xms>
         <java.xmx>40m</java.xmx>
         <java.memory.opts>-Xms${java.xms} -Xmx${java.xmx}</java.memory.opts>
